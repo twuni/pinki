@@ -1,0 +1,11 @@
+# By default, ignore everything
+*
+
+# Include module sources
+!/*.go
+
+# Include module definition
+!/go.mod
+
+# Include module dependency checksums
+!/go.sum
